@@ -1,15 +1,16 @@
 let name = "Ilya";
 
-alert( `hello ${1}` );
+alert( `hello ${1}` ); // "hello 1"
 
-alert( `hello ${"name"}` );
+alert( `hello ${"name"}` ); // "hello name"
 
-alert( `hello ${name}` );
+alert( `hello ${name}` ); // "hello Ilya"
+
 
 // 
 
-let name1 = prompt("What is your name?", "");
-alert(name1);
+let name1 = prompt("What is your name?", ""); //запрос ввода
+alert(name1); // вывод
 
 // 
 let a = +prompt("First number?", 1);
